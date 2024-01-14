@@ -1,5 +1,4 @@
 import AccordionItem from '@/components/AccordionItem'
-import './styles.css'
 
 const parts = [
   {
