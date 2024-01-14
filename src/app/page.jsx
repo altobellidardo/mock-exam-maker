@@ -21,7 +21,7 @@ export default function Home () {
         <section className='w-full py-12 md:py-24 lg:py-32'>
           <div className='space-y-12 px-4 md:px-6 mx-auto w-fit'>
             <h2 className='text-3xl font-bold tracking-tighter sm:text-5xl'>Features & Benefits</h2>
-            <div className='mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3'>
+            <div className='mx-auto grid items-start gap-4 sm:gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3'>
               <Card>
                 <h3 className='font-bold mb-2'>Customizable</h3>
                 <p>
