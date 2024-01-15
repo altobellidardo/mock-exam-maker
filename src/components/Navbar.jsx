@@ -5,7 +5,7 @@ import GraduationCapIcon from './icons/Graduation'
 
 function Navbar () {
   return (
-    <header className='h-16 px-2 mx-auto flex items-center w-screen md:w-[60vw] justify-between'>
+    <header className='h-16 flex items-center justify-between'>
       <Link className='flex items-center justify-center gap-2 hover:bg-orange-500 px-2 py-1 hover:text-orange-100' href='/'>
         <GraduationCapIcon className='size-6' />
         <span>ExamGen</span>

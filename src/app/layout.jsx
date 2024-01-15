@@ -14,10 +14,10 @@ export const metadata = {
 export default function RootLayout ({ children }) {
   return (
     <html lang='en'>
-      <body className={inter.className + ' bg-orange-200 min-h-screen'}>
+      <body className={inter.className + ' bg-orange-200 min-h-screen w-screen md:w-[80vw] lg:w-[70vw] mx-auto'}>
         <Providers>
           <Navbar />
-          <section className='bg-orange-200 min-h-[90vh]'>
+          <section className='bg-orange-200'>
             {children}
           </section>
         </Providers>
